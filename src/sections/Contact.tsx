@@ -129,7 +129,7 @@ const Contact: React.FC = () => {
               </p>
 
               <a
-                href="https://drive.google.com/file/d/1z_Z7TVxaNj7su-FkOClAVPdDL9NELZrW/view?usp=drive_link"
+                href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 border border-accent text-accent hover:bg-accent hover:text-black transition"
