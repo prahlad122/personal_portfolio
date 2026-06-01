@@ -39,7 +39,7 @@ export const projects: Project[] = [
     image:
       'https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['React', 'javascript', 'Tailwind CSS', 'Local Storage' , 'express','mongoose'],
-    liveUrl: '#',
+    liveUrl: 'https://taskify-frontend-d57i.onrender.com',
     githubUrl: 'https://github.com/prahlad122/Taskify',
   },
   {
