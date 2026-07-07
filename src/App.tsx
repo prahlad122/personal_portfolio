@@ -6,9 +6,9 @@ import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
-//import AnimatedGrid from "./components/AnimatedGrid";
+import AnimatedGrid from "./components/AnimatedGrid";
 //import FloatingOrbs from "./components/FloatingOrbs";
-import Particles from "./components/Particle";
+//import Particles from "./components/Particle";
 //import MeshGradient from "./components/MeshGradient";
 import { AnimatePresence } from "framer-motion";
 import BootScreen from "./components/BootScreen";
@@ -33,9 +33,9 @@ function App() {
       <div className="relative min-h-screen bg-bgprimary text-textmain">
 
         {/*  Boot Screen */}
-        {/* {<AnimatedGrid/>} */}
+        {<AnimatedGrid/>}
        
-       <Particles/>
+       {/* <Particles/> */}
         <AnimatePresence>
           {showBoot && <BootScreen onDone={handleBootDone} />}
         </AnimatePresence>
