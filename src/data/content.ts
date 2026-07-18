@@ -41,7 +41,7 @@ export const projects: Project[] = [
     image: smartComplaintImg,
     technologies: ['React', 'javascript','Axios', 'Tailwind CSS' , 'express','mongoose' , 'React Router', 'JWT' , 'Gemini API key'],
     liveUrl: 'https://smartcomplaints.vercel.app',
-    githubUrl: 'https://github.com/prahlad122/Taskify',
+    githubUrl: 'https://github.com/prahlad122/Smart-complaints-classification-system-for-municipal-corporation',
   },
   {
     id: 'project-2',
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     image:InventoryImg,
     technologies: ['React', 'javascript', 'Tailwind CSS', 'JWT' , 'express','mongoose' , 'Axios'],
     liveUrl: 'https://inventoryhub1.netlify.app',
-    githubUrl: 'https://github.com/prahlad122/Taskify',
+    githubUrl: 'https://github.com/prahlad122/Inventory_management_system',
   },
   {
     id: 'project-3',
