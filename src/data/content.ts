@@ -1,4 +1,6 @@
 import { NavItem, Skill, Project, Experience, Education, SocialLink } from '../types';
+import smartComplaintImg from "../assets/projects/complaint.png";
+import InventoryImg from "../assets/projects/inventory.png";
 
 /* ================= NAVIGATION ================= */
 export const navItems: NavItem[] = [
@@ -32,7 +34,27 @@ export const skills: Skill[] = [
 export const projects: Project[] = [
   
   {
+    id: 'project-1',
+    title: 'Smart Complaint Classification System for Municipal Corporation using MERN Stack and Generative AI',
+    description:
+      'The Smart Complaint Classification System is a web-based platform developed to streamline the process of registering, classifying, and managing citizen complaints for municipal corporations. Citizens can submit complaints related to civic issues such as garbage collection, water supply, road damage, street lighting, sewage, and sanitation.',
+    image: smartComplaintImg,
+    technologies: ['React', 'javascript','Axios', 'Tailwind CSS' , 'express','mongoose' , 'React Router', 'JWT' , 'Gemini API key'],
+    liveUrl: 'https://smartcomplaints.vercel.app',
+    githubUrl: 'https://github.com/prahlad122/Taskify',
+  },
+  {
     id: 'project-2',
+    title: 'Inventory management and Billing system',
+    description:
+  "A full-stack Inventory Management and Billing System developed using the MERN Stack with JWT-based authentication and role-based access control. The application follows industry best practices and provides a structured Master module for managing Categories, Subcategories, Taxes, and Items, enabling efficient inventory organization. It also includes a Transaction module to handle inventory and billing operations, ensuring accurate stock management and streamlined business workflows through secure REST APIs and a responsive user interface.",
+    image:InventoryImg,
+    technologies: ['React', 'javascript', 'Tailwind CSS', 'JWT' , 'express','mongoose' , 'Axios'],
+    liveUrl: 'https://inventoryhub1.netlify.app',
+    githubUrl: 'https://github.com/prahlad122/Taskify',
+  },
+  {
+    id: 'project-3',
     title: 'Full stack task management',
     description:
       'A responsive task management app enabling task scheduling, categorization, priority tracking, and progress visualization.',
@@ -43,7 +65,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/prahlad122/Taskify',
   },
   {
-    id: 'project-1',
+    id: 'project-3',
     title: 'Airbnb inspired Travel Booking Web Application',
     description:
       'A scalable MERN-based commerce platform with authentication, product management, cart system, order processing, and secure payment integration.',
@@ -52,29 +74,6 @@ export const projects: Project[] = [
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'cloudinary'],
     liveUrl: 'https://airbnb-1-frontend.onrender.com',
     githubUrl: 'https://github.com/prahlad122/Airbnb',
-    featured: true,
-  },
-  {
-    id: 'project-3',
-    title: 'Real-Time Weather Intelligence Dashboard',
-    description:
-      'A real-time weather analytics dashboard powered by OpenWeather API featuring forecasts, geo-location search, and dynamic UI updates.',
-    image:
-      'https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['React', 'REST API', 'CSS', 'OpenWeather API'],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/prahlad122/React_weatherApp',
-  },
-  {
-    id: 'project-4',
-    title: 'Live video streaming website',
-    description:
-      'Live video call streaming website like zoom using react ,tailwind , and a third party sdk Zigocloud , smooth and seamless streaming.',
-    image:
-      'https://images.pexels.com/photos/4226256/pexels-photo-4226256.jpeg?_gl=1*1fkytky*_ga*MzE5MjA0Njc2LjE3NjY3MjQyNzA.*_ga_8JE65Q40S6*czE3NzMyNTgyNzEkbzIkZzEkdDE3NzMyNTgyODgkajQzJGwwJGgw',
-    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/prahlad122/Live_streaming_website',
     featured: true,
   },
 ];

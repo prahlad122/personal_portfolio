@@ -15,7 +15,7 @@ import BootScreen from "./components/BootScreen";
 import { useEffect, useState } from "react";
 
 function App() {
-  // ✅ FIXED HERE
+  
   const [showBoot, setShowBoot] = useState(true);
 
   useEffect(() => {
@@ -40,7 +40,7 @@ function App() {
           {showBoot && <BootScreen onDone={handleBootDone} />}
         </AnimatePresence>
 
-        {/* ✅ Hide site until boot finishes */}
+        {/* Hide site until boot finishes */}
         {!showBoot && (
           <div className="relative z-10">
             <Navbar />
